@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625d29ad-6511-490a-b572-a5744500c07e" name="Changes" comment="" />
+    <list default="true" id="625d29ad-6511-490a-b572-a5744500c07e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/olahammed/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/olahammed/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/olahammed/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/olahammed/customer/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/olahammed/customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/olahammed/customer/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/olahammed/customer/CustomerRegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/olahammed/customer/CustomerRegistrationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/olahammed/customer/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/olahammed/customer/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/olahammed/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/olahammed/customer/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/olahammed/customer/Customer$CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/olahammed/customer/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/olahammed/customer/CustomerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/olahammed/customer/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/olahammed/customer/CustomerRegistrationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/olahammed/customer/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/olahammed/customer/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -30,16 +51,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17 (2)&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/olaidehammed/Desktop/olaideservices&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/olaidehammed/Desktop/olaideservices/customer/src/main/java/org/olahammed/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/olaidehammed/Desktop/olaideservices",
+    "onboarding.tips.debug.path": "/Users/olaidehammed/Desktop/olaideservices/customer/src/main/java/org/olahammed/Main.java",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.olahammed.customer" />
@@ -48,7 +69,20 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.olaidecode">
+  <component name="RunManager" selected="Application.CustomerApplication">
+    <configuration name="CustomerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.olahammed.customer.CustomerApplication" />
+      <module name="customer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.olahammed.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="olaidecode" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/microsoft-17.jdk/Contents/Home" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -74,10 +108,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.olaidecode" />
+      <item itemvalue="Application.CustomerApplication" />
       <item itemvalue="Docker.customer: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomerApplication" />
         <item itemvalue="Docker.customer: Compose Deployment" />
       </list>
     </recent_temporary>

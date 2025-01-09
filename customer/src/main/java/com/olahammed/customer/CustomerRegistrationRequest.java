@@ -1,4 +1,4 @@
-package org.olahammed.customer;
+package com.olahammed.customer;
 
 public record CustomerRegistrationRequest(
         String firstName,

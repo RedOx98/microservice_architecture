@@ -1,4 +1,4 @@
-package org.olahammed.customer;
+package com.olahammed.customer;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

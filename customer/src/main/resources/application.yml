@@ -6,12 +6,15 @@ spring:
     name: customer
   
   datasource:
-    url: jdbc:postgresql://localhost:5432/servicesdb # Update with your actual database URL
-    username: user                                  # Your database username
-    password: user                                  # Your database password
+    url: jdbc:postgresql://localhost:5432/customer # Update with your actual database URL
+    username: 'user'                                  # Your database username
+    password: 'user'                                  # Your database password
     driver-class-name: org.postgresql.Driver       # For PostgreSQL; adjust if using another DB
-
-  jpa:
-    hibernate:
-      ddl-auto: update                              # Adjust as needed (e.g., create, validate)
-    show-sql: true                                  # Show SQL queries in the logs
+    jpa:
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+          format_sql: 'true'
+      hibernate:
+        ddl-auto: update                              # Adjust as needed (e.g., create, validate)
+      show-sql: true                                  # Show SQL queries in the logs

@@ -1,4 +1,4 @@
-package org.olahammed.customer;
+package com.olahammed.customer;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
